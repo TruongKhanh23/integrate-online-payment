@@ -15,21 +15,21 @@ export default new Router({
   routes: [
     {
       path: "/",
-      name: "components",
-      components: {
-        header: AppHeader,
-        default: Components,
-        footer: AppFooter
-      }
-    },
-    {
-      path: "/landing",
       name: "landing",
       components: {
         header: AppHeader,
         default: Landing,
-        footer: AppFooter
-      }
+        footer: AppFooter,
+      },
+    },
+    {
+      path: "/components",
+      name: "components",
+      components: {
+        header: AppHeader,
+        default: Components,
+        footer: AppFooter,
+      },
     },
     {
       path: "/login",
@@ -37,8 +37,8 @@ export default new Router({
       components: {
         header: AppHeader,
         default: Login,
-        footer: AppFooter
-      }
+        footer: AppFooter,
+      },
     },
     {
       path: "/register",
@@ -46,8 +46,8 @@ export default new Router({
       components: {
         header: AppHeader,
         default: Register,
-        footer: AppFooter
-      }
+        footer: AppFooter,
+      },
     },
     {
       path: "/profile",
@@ -55,15 +55,15 @@ export default new Router({
       components: {
         header: AppHeader,
         default: Profile,
-        footer: AppFooter
-      }
-    }
+        footer: AppFooter,
+      },
+    },
   ],
-  scrollBehavior: to => {
+  scrollBehavior: (to) => {
     if (to.hash) {
       return { selector: to.hash };
     } else {
       return { x: 0, y: 0 };
     }
-  }
+  },
 });
