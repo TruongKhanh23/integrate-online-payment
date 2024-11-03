@@ -35,7 +35,7 @@
                       class="mr-3"
                       icon="ni ni-settings-gear-65"
                     ></badge>
-                    <h6 class="mb-0">Six ways to make people like you</h6>
+                    <h6 class="mb-0">Six ways to make people like you.</h6>
                   </div>
                 </li>
                 <li class="py-2">
@@ -47,7 +47,7 @@
                       icon="ni ni-html5"
                     ></badge>
                     <h6 class="mb-0">
-                      Twelve ways to win people to your way of thinking
+                      Twelve ways to win people to your way of thinking.
                     </h6>
                   </div>
                 </li>
@@ -60,7 +60,7 @@
                       icon="ni ni-satisfied"
                     ></badge>
                     <h6 class="mb-0">
-                      Nine ways to change people without arousing resentment
+                      Nine ways to change people without arousing resentment.
                     </h6>
                   </div>
                 </li>
